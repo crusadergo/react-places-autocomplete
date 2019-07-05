@@ -66,6 +66,7 @@ class PlacesAutocomplete extends React.Component {
     }
 
     this.autocompleteService = new window.google.maps.places.AutocompleteService();
+    this.sessionToken = new google.maps.places.AutocompleteSessionToken();
     this.autocompleteOK = window.google.maps.places.PlacesServiceStatus.OK;
     this.setState(state => {
       if (state.ready) {
@@ -106,6 +107,7 @@ class PlacesAutocomplete extends React.Component {
         {
           ...this.props.searchOptions,
           input: value,
+          sessionToken: this.sessionToken
         },
         this.autocompleteCallback
       );
