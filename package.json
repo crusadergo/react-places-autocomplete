@@ -1,5 +1,5 @@
 {
-  "name": "react-places-autocomplete",
+  "name": "react-places-autocomplete-with-session",
   "version": "7.2.1",
   "description": "A React component for Google Maps Places Autocomplete",
   "main": "dist/index.js",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kenny-hibino/react-places-autocomplete.git"
+    "url": "https://github.com/crusadergo/react-places-autocomplete"
   },
   "keywords": [
     "React.js",
@@ -52,12 +52,12 @@
     "dist",
     "README.md"
   ],
-  "author": "Ken Hibino <ken.hibino7@gmail.com> (http://www.kenhibino.com/)",
+  "author": "Ilya Lazarev <crusadergo@yandex.ru> (http://insei-school.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kenny-hibino/react-places-autocomplete/issues"
+    "url": "https://github.com/crusadergo/react-places-autocomplete/issues"
   },
-  "homepage": "https://github.com/kenny-hibino/react-places-autocomplete#readme",
+  "homepage": "https://github.com/crusadergo/react-places-autocomplete#readme",
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-eslint": "8.2.2",
